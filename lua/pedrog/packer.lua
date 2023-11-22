@@ -35,6 +35,8 @@ return require('packer').startup(function(use)
   use 'williamboman/mason-lspconfig.nvim'
   use 'williamboman/mason.nvim'
 
+  --java language
+  use 'mfussenegger/nvim-jdtls'
   -- completition
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-buffer'
